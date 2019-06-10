@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04452A23228B578A009CD5CF /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04452A22228B578A009CD5CF /* SwipeTableViewController.swift */; };
 		0471D2D02280BA2000F05BC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471D2CF2280BA2000F05BC2 /* AppDelegate.swift */; };
 		0471D2D22280BA2000F05BC2 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471D2D12280BA2000F05BC2 /* ToDoListViewController.swift */; };
 		0471D2D52280BA2000F05BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0471D2D32280BA2000F05BC2 /* Main.storyboard */; };
 		0471D2D72280BA2100F05BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0471D2D62280BA2100F05BC2 /* Assets.xcassets */; };
 		0471D2DA2280BA2100F05BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0471D2D82280BA2100F05BC2 /* LaunchScreen.storyboard */; };
+		0471D318228351D100F05BC2 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471D317228351D100F05BC2 /* CategoryViewController.swift */; };
+		0471D32222837D7200F05BC2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471D32122837D7200F05BC2 /* Item.swift */; };
+		0471D32422837D8400F05BC2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471D32322837D8400F05BC2 /* Category.swift */; };
+		29BD610AAAF45DB2AFDC540E /* Pods_Shit_I_Gotta_Do.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AC882D1835D09EAD8039B9 /* Pods_Shit_I_Gotta_Do.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04452A22228B578A009CD5CF /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		0471D2CC2280BA2000F05BC2 /* Shit I Gotta Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shit I Gotta Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0471D2CF2280BA2000F05BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0471D2D12280BA2000F05BC2 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,12 @@
 		0471D2D62280BA2100F05BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0471D2D92280BA2100F05BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0471D2DB2280BA2100F05BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0471D317228351D100F05BC2 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		0471D32122837D7200F05BC2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0471D32322837D8400F05BC2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BF2517390D7F71628478DD19 /* Pods-Shit I Gotta Do.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shit I Gotta Do.debug.xcconfig"; path = "Target Support Files/Pods-Shit I Gotta Do/Pods-Shit I Gotta Do.debug.xcconfig"; sourceTree = "<group>"; };
+		F0AC882D1835D09EAD8039B9 /* Pods_Shit_I_Gotta_Do.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shit_I_Gotta_Do.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3150C63098CDB598B2701C /* Pods-Shit I Gotta Do.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shit I Gotta Do.release.xcconfig"; path = "Target Support Files/Pods-Shit I Gotta Do/Pods-Shit I Gotta Do.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29BD610AAAF45DB2AFDC540E /* Pods_Shit_I_Gotta_Do.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				0471D2CE2280BA2000F05BC2 /* Shit I Gotta Do */,
 				0471D2CD2280BA2000F05BC2 /* Products */,
+				C2C63E900EA12D65C815062C /* Pods */,
+				A46D122EE15F4E06FCB23591 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +71,33 @@
 			children = (
 				0471D2CF2280BA2000F05BC2 /* AppDelegate.swift */,
 				0471D2D12280BA2000F05BC2 /* ToDoListViewController.swift */,
+				04452A22228B578A009CD5CF /* SwipeTableViewController.swift */,
 				0471D2D32280BA2000F05BC2 /* Main.storyboard */,
+				0471D317228351D100F05BC2 /* CategoryViewController.swift */,
 				0471D2D62280BA2100F05BC2 /* Assets.xcassets */,
 				0471D2D82280BA2100F05BC2 /* LaunchScreen.storyboard */,
 				0471D2DB2280BA2100F05BC2 /* Info.plist */,
+				0471D32122837D7200F05BC2 /* Item.swift */,
+				0471D32322837D8400F05BC2 /* Category.swift */,
 			);
 			path = "Shit I Gotta Do";
+			sourceTree = "<group>";
+		};
+		A46D122EE15F4E06FCB23591 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0AC882D1835D09EAD8039B9 /* Pods_Shit_I_Gotta_Do.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2C63E900EA12D65C815062C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF2517390D7F71628478DD19 /* Pods-Shit I Gotta Do.debug.xcconfig */,
+				FB3150C63098CDB598B2701C /* Pods-Shit I Gotta Do.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0471D2DE2280BA2100F05BC2 /* Build configuration list for PBXNativeTarget "Shit I Gotta Do" */;
 			buildPhases = (
+				1E6AACC1CB3640EF118FC621 /* [CP] Check Pods Manifest.lock */,
 				0471D2C82280BA2000F05BC2 /* Sources */,
 				0471D2C92280BA2000F05BC2 /* Frameworks */,
 				0471D2CA2280BA2000F05BC2 /* Resources */,
+				F96D77B69C213DCFFB537DE0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +168,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E6AACC1CB3640EF118FC621 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shit I Gotta Do-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96D77B69C213DCFFB537DE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shit I Gotta Do/Pods-Shit I Gotta Do-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shit I Gotta Do/Pods-Shit I Gotta Do-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0471D2C82280BA2000F05BC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0471D32222837D7200F05BC2 /* Item.swift in Sources */,
+				0471D318228351D100F05BC2 /* CategoryViewController.swift in Sources */,
 				0471D2D22280BA2000F05BC2 /* ToDoListViewController.swift in Sources */,
 				0471D2D02280BA2000F05BC2 /* AppDelegate.swift in Sources */,
+				04452A23228B578A009CD5CF /* SwipeTableViewController.swift in Sources */,
+				0471D32422837D8400F05BC2 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +375,7 @@
 		};
 		0471D2DF2280BA2100F05BC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2517390D7F71628478DD19 /* Pods-Shit I Gotta Do.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +394,7 @@
 		};
 		0471D2E02280BA2100F05BC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3150C63098CDB598B2701C /* Pods-Shit I Gotta Do.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
